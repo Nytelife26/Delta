@@ -1,5 +1,5 @@
 {
-  "name": "delta",
+  "name": "conflux-delta",
   "version": "1.0.0",
   "description": "Delta is a secure integratable payment channel and wallet for Conflux.",
   "main": "main.js",
@@ -10,16 +10,14 @@
     "type": "git",
     "url": "git+https://github.com/Nytelife26/delta.git"
   },
-  "author": "Nytelife26",
+  "author": {
+		"name": "nytelife26",
+		"email": "nytelife@protonmail.com",
+		"url": "https://github.com/Nytelife26"
+	},
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Nytelife26/delta/issues"
   },
-  "homepage": "https://github.com/Nytelife26/delta#readme",
-  "dependencies": {
-    "js-conflux-sdk": "^1.0.1"
-  },
-  "devDependencies": {
-    "electron": "^10.1.5"
-  }
+  "homepage": "https://github.com/Nytelife26/delta#readme"
 }
