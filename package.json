@@ -4,20 +4,42 @@
   "description": "Delta is a secure integratable payment channel and wallet for Conflux.",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "npx eslint ./**/*.js --fix"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Nytelife26/delta.git"
   },
   "author": {
-		"name": "nytelife26",
-		"email": "nytelife@protonmail.com",
-		"url": "https://github.com/Nytelife26"
-	},
+    "name": "nytelife26",
+    "email": "nytelife@protonmail.com",
+    "url": "https://github.com/Nytelife26"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Nytelife26/delta/issues"
   },
-  "homepage": "https://github.com/Nytelife26/delta#readme"
+  "homepage": "https://github.com/Nytelife26/delta#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-conventional": "^11.0.0",
+    "@semantic-release/changelog": "^5.0.1",
+    "@semantic-release/git": "^9.0.0",
+    "commitizen": "^4.2.2",
+    "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^7.12.1",
+    "husky": "^4.3.0",
+    "semantic-release": "^17.2.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  }
 }
