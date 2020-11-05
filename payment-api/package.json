@@ -11,5 +11,8 @@
     "email": "nytelife@protonmail.com",
     "url": "https://github.com/Nytelife26"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "next": "^10.0.1"
+  }
 }
