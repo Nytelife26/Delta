@@ -14,6 +14,9 @@ project, built on Conflux.
 | :rocket: | [Payment API] |       |     |
 | :rocket: |    [Wallet]   |       |     |
 
+[Payment API]: #payment-api
+[Wallet]: #wallet
+
 #### Payment API
 
 > This milestone will be done when
@@ -43,7 +46,7 @@ This will allow us to then move on to developing the wallet.
 
 After this, Delta's core functionality will be complete.
 
-We aim to build this for the following first: Android, Windows, and *NIX 
+We aim to build this for the following first: Android, Windows, and *NIX  
 And then port to: MacOS, and iOS.
 
 🚀 &nbsp;**OPEN** &nbsp;&nbsp;📉 &nbsp;&nbsp;**0 / 0** goals completed **(0%)** 
