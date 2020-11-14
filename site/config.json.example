@@ -1,0 +1,11 @@
+{
+	"data": {
+		"pgsql": {
+			"user": "database_user",
+			"host": "database.server.com",
+			"database": "db",
+			"password": "secret",
+			"port": 0
+		}
+	}
+}
